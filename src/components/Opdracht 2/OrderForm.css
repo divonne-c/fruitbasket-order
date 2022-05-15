@@ -1,0 +1,80 @@
+.form-container h2 {
+    text-align: center;
+    margin-top: 2em;
+    text-transform: uppercase;
+    color: #fcd388;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 50%;
+    margin: 2em auto;
+    color: #444343;
+}
+
+.label-container {
+    height: 35px;
+}
+
+.label {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.radio-container {
+    display: flex;
+    gap: 1em;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 0.3em;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    padding: 0.5em;
+    background: #f1eadd;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    border: red 1px solid;
+}
+
+.error-message {
+    font-size: 0.8em;
+    color: #de0707;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+select {
+    width: 30%;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    gap: 1em;
+}
