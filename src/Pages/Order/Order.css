@@ -1,0 +1,11 @@
+.fruit-form-container {
+    background: #f3ece0;
+    padding-bottom: 1em;
+}
+
+.fruit-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3em;
+    padding: 5em;
+}

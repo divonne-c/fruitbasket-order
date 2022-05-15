@@ -1,0 +1,24 @@
+.fruit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    background: #ffffff;
+    color: #444343;
+    border-radius: 12px;
+    padding: 1em;
+}
+
+.fruit {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.fruit h1 {
+    font-size: 3em;
+}
+
+.fruit p {
+    font-size: 1.5em;
+}
